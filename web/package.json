@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@uirouter/react": "^0.5.5",
+    "axios": "^0.17.1",
+    "bootstrap": "^4.0.0-beta.2",
+    "geoip-local": "^1.0.7",
+    "geolib": "^2.0.24",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
+    "react-jsonschema-form": "^1.0.0",
+    "react-places-autocomplete": "^5.4.3",
+    "react-scripts": "1.0.17",
+    "react-star-rating": "^1.4.2",
+    "react-stars": "^2.2.5",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^4.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5001"
+}
